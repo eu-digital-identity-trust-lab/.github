@@ -11,9 +11,9 @@ The EUDI Wallet Reference Implementation is based on a modular architecture comp
 ### 🔑 Quick Links
 | Section | Purpose |
 |--------|--------|
-| 🧭 [Feature Map](.github/profile/feature-map.md) | Overview of delivered and planned features |
+| 🧭 [Feature Map](./feature-map.md) | Overview of delivered and planned features |
 | 🗺️ [Roadmap](#roadmap) | Timeline and upcoming milestones |
-| 📂 [Repositories](#repositories) | All component and library repos |
+| 📂 [Repositories](./repositories-list.md) | All component and library repos |
 | 🛠️ [Getting Started](#eudi-wallet-dev-hub) | Technical guidelines and tools |
 
 
@@ -92,5 +92,6 @@ The released software is a initial development release version:
 
 [EU Digital Identity Wallet
 ](https://ec.europa.eu/digital-building-blocks/sites/display/EUDIGITALIDENTITYWALLET/)
+
 
 
