@@ -34,51 +34,14 @@ The EUDI Wallet Reference Implementation below is built based on the [Architectu
 
 ## ⭐Wallet Reference Implementation - Open Source Code
 
-<img align="left" width="30%" src="https://raw.githubusercontent.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/main/docs/media/number1.png"/>
-
-🚀 EUDI Wallet open source code is now available online. The journey has just started, [get started with your implementation](https://github.com/eu-digital-identity-wallet/.github/blob/main/profile/reference-implementation.md)! 
-
-For further information on the repositories please [consult the list of repositories](https://github.com/orgs/eu-digital-identity-wallet/repositories).
-
-Under the Digital Europe Programme, the Commission is facilitating [work to develop, implement and scale up the European Digital Identity framework](https://digital-strategy.ec.europa.eu/en/policies/eudi-wallet-implementation). The actions aim to arrive at a set of technical references, standards, components and solutions including an application of the EU Digital Identity Wallet to be made available to Member States.
-
 The EUDI Wallet Reference Implementation aims at showcasing a robust and interoperable platform for digital identification, authentication and electronic signatures based on common standards across the European Union.
 
-## High Level Overview
+🚀 EUDI Wallet open source code is available online!
 
-### Android Overview
 
-A high level overview of the used repositories for the Android platform can be found in the below diagram. For further information please [consult the list of repositories](https://github.com/orgs/eu-digital-identity-wallet/repositories).
+Embark on the journey by exploring more about the [EUDI Wallet Reference Implementation](/profile/reference-implementationm.md) or get started with your implementation using the [EUDI Wallet DevHub](https://eu-digital-identity-wallet.github.io/).
 
-```mermaid
-graph TD;
-    A[eudi-app-android-wallet-ui]
-    B[eudi-lib-android-wallet-core] -->  |Wallet Core|A 
-    C[eudi-lib-android-wallet-document-manager] -->  |DocumentManager|B 
-    D[eudi-lib-android-iso18013-data-transfer] --> |TransferManager|B 
-    E[eudi-lib-jvm-openid4vci-kt] --> |OpenId4VciManager|B 
-    F[eudi-lib-jvm-siop-openid4vp-kt] --> |OpenId4VpManager|B 
-    G[com.android.identity:identity-credential-android] --> |SecureArea,StorageEngine|B 
-    H --> D 
-    I[eudi-lib-jvm-presentation-exchange] --> F 
-```
 
-### iOS Overview
-
-A high level overview of the used repositories for the iOS platform can be found in the below diagram. For further information please [consult the list of repositories](https://github.com/orgs/eu-digital-identity-wallet/repositories).
-
-```mermaid
-graph TD;
-    A[eudi-app-ios-wallet-ui]
-    B[eudi-lib-ios-wallet-kit] -->  |Wallet Core|A 
-    C[eudi-lib-ios-wallet-storage] -->  |Wallet Storage|B 
-    D[eudi-lib-ios-iso18013-data-transfer] --> |Transfer Manager|B 
-    E[eudi-lib-ios-openid4vci-swift] --> |OpenId4Vci Manager|B 
-    F[eudi-lib-ios-siop-openid4vp-swift] --> |OpenId4Vp Manager|B 
-    G[eudi-lib-ios-iso18013-security] --> |Mdoc Security|D 
-    H[eudi-lib-ios-iso18013-data-model] --> |Mdoc Data Model|D 
-    I[eudi-lib-ios-presentation-exchange-swift] --> F 
-```
 
 ## Related Content
 
@@ -113,3 +76,4 @@ Frequently Asked Question about the Digital Identity Regulation
 * [Cookies](https://commission.europa.eu/cookies_en)
 * [Privacy policy](https://commission.europa.eu/privacy-policy_en)
 * [Legal notice](https://commission.europa.eu/legal-notice_en)
+
