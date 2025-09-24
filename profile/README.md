@@ -39,7 +39,7 @@ The EUDI Wallet Reference Implementation aims at showcasing a robust and interop
 🚀 EUDI Wallet open source code is available online!
 
 
-Embark on the journey by exploring more about the [EUDI Wallet Reference Implementation](/profile/reference-implementationm.md) or get started with your implementation using the [EUDI Wallet DevHub](https://eu-digital-identity-wallet.github.io/).
+Embark on the journey by exploring more about the [EUDI Wallet Reference Implementation](./reference-implementation.md) or get started with your implementation using the [EUDI Wallet DevHub](https://eu-digital-identity-wallet.github.io/).
 
 
 
@@ -76,4 +76,5 @@ Frequently Asked Question about the Digital Identity Regulation
 * [Cookies](https://commission.europa.eu/cookies_en)
 * [Privacy policy](https://commission.europa.eu/privacy-policy_en)
 * [Legal notice](https://commission.europa.eu/legal-notice_en)
+
 
