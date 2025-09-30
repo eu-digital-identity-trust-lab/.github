@@ -67,8 +67,7 @@ The following sections elaborate on the detailed features supported by the EUDI 
 ### _Issuance_ 
 
 <details>
-  <summary>Covers applicable issuance flows in alignment with OpenID4VCI. Expand to explore detailed functional specifications for the 'Issuance' capabilities.</summary>
-  <br/>
+  <summary>Covers applicable issuance flows in alignment with OpenID4VCI. Expand to explore detailed functional specifications for the 'Issuance' capabilities.</summary>   
 
 _The 'Issuance' functionality is aligned with the OpenID4VCI protocol and as such is being continuously updated in alignment with the [evolving standards and protocols](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/64)._
 
@@ -91,7 +90,7 @@ _The 'Issuance' functionality is aligned with the OpenID4VCI protocol and as suc
 
 <details>
   <summary>Covers applicable presentation flows in alignment with OpenID4VP and ISO/IEC 18013-5. Expand to explore detailed functional specifications for the 'Presentation' capabilities.</summary>
-  <br/>
+  
 
 _The 'Presentation' functionality is aligned with the OpenID4VCP protocol (for remote presentation flows) and as such is being continuously updated in alignment with the [evolving standards and protocols](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/64)._
 
@@ -289,7 +288,7 @@ A set of demo implementations mocking business flows in different contexts are a
 |[Travel](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/6)| A 'Travel Use Case’ implementation for the EUDI Wallet which showcases the utilization of the EUDI Wallet in a ‘Travel’ business scenario, where the EUDI Wallet is used for several purposes, such as presenting attestations (remotely and in proximity) as well as digitally signing documents.    | Completed       |
 |[Cross-border recruitment](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/55)| A ‘Cross-Border Recruitment Use Case’ implementation for the EUDI Wallet which showcases the utilization of the EUDI Wallet in a ‘Cross-Border Recruitment’ business scenario, where the EUDI Wallet is used for several purposes, such as presenting attestations (remotely and in proximity) when applying/on-boarding for a job, as well as digitally signing job contract.       | In Progress       |
 
-## 🏷️ Releases
+## 📦 Releases
 The latest published versions of the key EUDI Wallet Reference Implementation components are summarised below:
 
 | Component                | Release |
