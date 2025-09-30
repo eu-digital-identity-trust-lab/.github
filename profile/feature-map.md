@@ -55,7 +55,7 @@ The following table provides a high-level overview of the key user functionaliti
 | [**Wallet Revocation**](#wallet-revocation) | Revoking wallet instance         | Planned  |
 | [**Wallet to Wallet interaction**](#wallet-to-wallet) | Enabling the exchange of PID/attestations between two EUDI Wallets       | Planned|
 | [**Wallet Backup and Restore**](#wallet-backup-and-restore) | Supporting  procedures for backing up and restoring attestations of an EUDI Wallet       | Planned |
-| [**Migrate to a different wallet**](#migrate-to-a-different-wallet) | Supporting  procedures for migrating attestations to another EUDI Wallet      |Planned |
+| [**Migrate to a different wallet**](#migrate-to-a-different-wallet) | Supporting  procedures for migrating attestations to a different EUDI Wallet      |Planned |
 | [**Support for ZKP**](#support-for-zkp) | Supporting  Zero-Knowledge Proofs in EUDI Wallet interactions      |Planned|
 
 You can explore the [EUDI Wallet Reference Implementation Roadmap](https://github.com/orgs/eu-digital-identity-wallet/projects/24) to explore further details in relation to the features and enhancements that are currently being developed or planned for future implementation.
