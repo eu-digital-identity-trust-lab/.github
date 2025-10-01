@@ -1,4 +1,4 @@
-:memo: [EUDI Wallet Reference Implementation](#eudi-wallet-reference-implementation) 🧭[Functional Scope](#functional-scope) 🗺️[Roadmap](#roadmap) 📂[Repositories](#repositories) 🛠️[Dev Hub](#eudi-wallet-dev-hub) 🔔[Disclaimer](#disclaimer)
+:memo: [EUDI Wallet Reference Implementation](#eudi-wallet-reference-implementation) 🧭 [Functional Scope](#functional-scope) 🗺️ [Roadmap](#roadmap) 📂 [Repositories](#repositories) 🛠️ [Dev Hub](#eudi-wallet-dev-hub) 🔔 [Disclaimer](#disclaimer)
 
 # EUDI Wallet Reference Implementation 
 
@@ -37,13 +37,13 @@ The scope of the EUDI Wallet Reference Implementation is released in an iterativ
 ## Roadmap
 The roadmap of the EUDI Wallet reference implementation provides a transparent view of the features and enhancements that are currently being developed or planned to the future. Its purpose is to promote open communication and collaboration in our community.
 
-🧭You can view further details in [EUDI Wallet Reference Implementation Roadmap](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap). 
+🧭 You can view further details in [EUDI Wallet Reference Implementation Roadmap](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap). 
 
 
 ## Repositories
 The EUDI Wallet Reference Implementation consists of a set of open-source repositories. 
 
-📂Browse through our [Repositories](./repositories-list.md) to find the information you need.
+📂 Browse through our [Repositories](./repositories-list.md) to find the information you need.
 
 
 ## EUDI Wallet Dev Hub
@@ -91,6 +91,7 @@ The released software is a initial development release version:
 
 [EU Digital Identity Wallet
 ](https://ec.europa.eu/digital-building-blocks/sites/display/EUDIGITALIDENTITYWALLET/)
+
 
 
 
