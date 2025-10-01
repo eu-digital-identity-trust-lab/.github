@@ -35,7 +35,15 @@ The following tables provide an overview of the technical standards, protocols a
 | Format        | Description                                 |  
 |:--------------------|:--------------------------------------------|
 | mso_mdoc           |ISO/IEC 18013-5 credential format for verifiable credentials, using a signed Mobile Security Object to bind and protect data elements, with support for selective disclosure.|
-| SD-JWT-VC | Credential format developed by the IETF and OpenID Foundation, extending JSON Web Tokens with selective disclosure for web-native verifiable credentials. |
+| SD-JWT-VC | Credential format developed by the IETF and OpenID Foundation, extending JSON Web Tokens with selective disclosure for web-native verifiable credentials. |  
+
+---
+**ℹ️ EUDI Wallet Standards and Technical Speficiations workstream**  
+The EUDI Wallet initiative is supported by ongoing work to define and align relevant standards and technical specifications with the relevant Implementing Acts establishing the EUDI framework.
+For more information, please refer to:  
+- [EUDI Wallet Standards and Technical Specifications workstream](https://github.com/eu-digital-identity-wallet/eudi-doc-standards-and-technical-specifications)  
+- [List of Technical Specifications (ARF)](https://github.com/eu-digital-identity-wallet/eudi-doc-standards-and-technical-specifications/blob/main/docs/technical-specifications/README.md)  
+
 
 
 ## 🧩 Features
@@ -59,7 +67,6 @@ The following table provides a high-level overview of the key user functionaliti
 | [**Support for ZKP**](#support-for-zkp) | Supporting  Zero-Knowledge Proofs in EUDI Wallet interactions      |Planned|
 
 You can explore the [EUDI Wallet Reference Implementation Roadmap](https://github.com/orgs/eu-digital-identity-wallet/projects/24) to explore further details in relation to the features and enhancements that are currently being developed or planned for future implementation.
-</br>
 
 
 The following sections elaborate on the detailed features supported by the EUDI Wallet Reference Implementation, grouped by functional area.
