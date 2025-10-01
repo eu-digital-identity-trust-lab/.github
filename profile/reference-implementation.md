@@ -41,10 +41,9 @@ The roadmap of the EUDI Wallet reference implementation provides a transparent v
 
 
 ## Repositories
+The EUDI Wallet Reference Implementation consists of a set of open-source repositories. 
 
-The EUDI Wallet Reference Implementation is based on a modular architecture composed of a set of business agnostic and re-usable components. 
-
-📂Browse through our [Repositories](./repositories-list.md) to find the information you are looking for.
+📂Browse through our [Repositories](./repositories-list.md) to find the information you need.
 
 
 ## EUDI Wallet Dev Hub
@@ -92,6 +91,7 @@ The released software is a initial development release version:
 
 [EU Digital Identity Wallet
 ](https://ec.europa.eu/digital-building-blocks/sites/display/EUDIGITALIDENTITYWALLET/)
+
 
 
 
