@@ -107,8 +107,6 @@ Specifically, as part of the EUDI Wallet Reference Implementation, the following
 | [EUDI Remote Qualified Electronic Signature (RQES) UI library for iOS](https://github.com/eu-digital-identity-wallet/eudi-lib-ios-rqes-ui) |  This package provides the core and UI functionality for the EUDI Wallet for iOS implementation, focusing on the Remote Qualified Electronic Signature (RQES) service.|
 
 
-</br>
-
 ## EUDI Wallet mobile native applications
 
 | Repository          | Description                                                                   |
@@ -116,7 +114,6 @@ Specifically, as part of the EUDI Wallet Reference Implementation, the following
 | [Wallet UI App (Android)](https://github.com/eu-digital-identity-wallet/eudi-app-android-wallet-ui) | Implementation of Wallet UI App for Android. Currently, it also includes a demo App, demonstrating the following capabilities: Proximity presentation, Same-device Online Presentation and Issuance of PID and mDL.	 |
 | [Wallet UI App (iOS)](https://github.com/eu-digital-identity-wallet/eudi-app-ios-wallet-ui) | Implementation of Wallet UI App for iOS. Currently, it also includes a demo App, demonstrating the following capabilities: Proximity presentation, and Same-device Online Presentation and Issuance of PID and mDL.| 
 
-</br>
 
 ## Verifier Apps and Services
 
@@ -125,7 +122,6 @@ Specifically, as part of the EUDI Wallet Reference Implementation, the following
 | [Web Verifier](https://github.com/eu-digital-identity-wallet/eudi-web-verifier)               | Demo Web Verifier UI application (Frontend) that acts as a Verifier/RP trusted endpoint. Available at [https://verifier.eudiw.dev](https://verifier.eudiw.dev)  |  
 | [RESTful API (web-services)](https://github.com/eu-digital-identity-wallet/eudi-srv-web-verifier-endpoint-23220-4-kt)             | Demo Web Verifier application (Backend RESTful service) that acts as a Verifier/RP trusted endpoint.| 
 
-</br>
 
 ## Issuing Apps and Services
 
@@ -134,8 +130,6 @@ Specifically, as part of the EUDI Wallet Reference Implementation, the following
 | [OpenID4VCI issuer (Python)](https://github.com/eu-digital-identity-wallet/eudi-srv-web-issuing-eudiw-py)               | An implementation of a credential issuing service, according to OpenID4VCI, in Python. Available at https://issuer.eudiw.dev/  |  
 | [OpenID4VCI issuer (Kotlin)](https://github.com/eu-digital-identity-wallet/eudi-srv-pid-issuer)             | An implementation of a credential issuing service, according to OpenID4VCI, in Kotlin. Available at  https://issuer-backend.eudiw.dev/ | 
 
-
-</br>
 
 ## Signing Apps and Services
 
