@@ -56,7 +56,7 @@ The following table provides a high-level overview of the key user functionaliti
 | [**Presentation**](#presentation)        | Presentation of verifiable credentials       | In Progress|
 | [**rQES**](#rqes) | Electronic signing with EUDI Wallet    | In Progress |
 | [**Transaction Logs**](#transaction-logs) | Log of historic transactions executed by the EUDI Wallet         | In Progress|
-| [**Request data deletion to RPs**](#request-data-deletion-to-rps) | Users requesting data deletion from Relying Parties they have previously interacted with     |Planned |
+| [**Request data deletion from RPs**](#request-data-deletion-from-rps) | Users requesting data deletion from Relying Parties they have previously interacted with     |Planned |
 | [**Report unlawful or suspicious requests to DPA(s)**](#report-unlawful-or-suspicious-requests) | Users reporting suspicious data requests to national Data Protection Authorities   |Planned |
 | [**Attestation Revocation**](#attestation-revocation) | Revoking issued attestations         | Completed |
 | [**Pseudonyms**](#pseudonyms)        | Using pseudonyms (i.e. passkeys) for authentication         | Planned |
@@ -156,7 +156,7 @@ _The 'Presentation' functionality is aligned with the OpenID4VCP protocol (for r
 
 ---
 
-### _Request data deletion to RPs_
+### _Request data deletion from RPs_
 
 <details>
   <summary> Users requesting data deletion from Relying Parties they have previously interacted with. </summary>
@@ -264,7 +264,7 @@ _The 'Presentation' functionality is aligned with the OpenID4VCP protocol (for r
 
 | Feature                         | Description                              |  Status     |
 |:----------|:-------------------|:-------:|
-|[Sipport for Zero Knowledge Proof](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/56)| Supporting Zero-Knowledge Proofs in EUDI Wallet interactions| Planned  |
+|[Support for Zero Knowledge Proof](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/56)| Supporting Zero-Knowledge Proofs in EUDI Wallet interactions| Planned  |
 
 
 </details>
