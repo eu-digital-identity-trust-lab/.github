@@ -58,7 +58,7 @@ The following table provides a high-level overview of the key user functionaliti
 |:--------------------|:--------------------------------------------|:----------:|
 | [**Issuance**](#issuance)            | Issuance of verifiable credentials          | In Progress|
 | [**Presentation**](#presentation)        | Presentation of verifiable credentials       | In Progress|
-| [**rQES**](#rqes) | Electronic signing with EUDI Wallet    | In Progress |
+| [**rQES**](#rqes) | Electronic signing with EUDI Wallet    | Completed |
 | [**Transaction Logs**](#transaction-logs) | Log of historic transactions executed by the EUDI Wallet         | In Progress|
 | [**Request data deletion from RPs**](#request-data-deletion-from-rps) | Users requesting data deletion from Relying Parties they have previously interacted with     |Planned |
 | [**Report unlawful or suspicious requests to DPA(s)**](#report-unlawful-or-suspicious-requests) | Users reporting suspicious data requests to national Data Protection Authorities   |Planned |
@@ -111,8 +111,8 @@ _The 'Presentation' functionality is aligned with the OpenID4VCP protocol (for r
 | [Remote Cross-device presentation](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/64)         |  User uses a web browser on a device other than the device on which their Wallet Unit is installed to share attestations to a requesting Relying Party          |Completed       |
 | [Proximity presentation](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/64)         | User and their device are physically near the Relying Party Instance, and PIDs and attestations are exchanged via proximity technologies (e.g., NFC, Bluetooth), either under human supervision (Supervised) or directly to a machine without supervision (Unsupervised)          |  Completed     |
 | [Digital Credential API](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/34)         | The Digital Credentials API enables the secure presentation of attestations from the EUDI Wallet, leveraging the web browser for the presentation flow        |  Planned       |
-| [Proximity Verifier](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/43)         | Implementation of an open source verifier application for Android, supporting stakeholders for developing their own proximity reader solutions       |  Planned       |
-| [Alignment to latest version of the standard](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/64)                  | Enhancements to presentation functionalities as detailed by the latest version of the OpenID4VP standard (v1.0).     | In Progress|
+| [Proximity Verifier](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/43)         | Implementation of an open source verifier application for Android, supporting stakeholders for developing their own proximity reader solutions       |  Completed       |
+| [Alignment to latest version of the standard](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/64)                  | Enhancements to presentation functionalities as detailed by the latest version of the OpenID4VP standard (v1.0).     | Completed|
 
 </details>
 
@@ -125,7 +125,7 @@ _The 'Presentation' functionality is aligned with the OpenID4VCP protocol (for r
 | Feature                         | Description                              |  Status     |
 |:------------------------------|:--------------------------------|:------------:|
 | [Wallet-Driven rQES (external SCA)](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/15)       | Remote qualified signatures in a Wallet-driven model, utilising an external 'Signature Creation Application'          | Completed       |
-| [Wallet-Driven rQES (internal SCA)](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/27)        | Remote qualified signatures in a Wallet-driven model, utilising an internal (i.e. wallet component) 'Signature Creation Application'              | In Progress       |
+| [Wallet-Driven rQES (internal SCA)](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/27)        | Remote qualified signatures in a Wallet-driven model, utilising an internal (i.e. wallet component) 'Signature Creation Application'              | Completed       |
 | [RP-Driven rQES (internal SCA)](https://github.com/eu-digital-identity-wallet/eudi-wallet-reference-implementation-roadmap/issues/16)       | Remote qualified signatures in a RP-driven model              | Completed      |
 | [Document Retrieval (Wallet-Driven flows)](https://github.com/eu-digital-identity-wallet/eudi-doc-reference-implementation-architecture/issues/45)        | In a 'wallet-centric' model for rQES, a foreseen scenario includes the retrieval of the document to be signed from the corresponding Relying Party, instead of retrieving the document from the device's file system.             | Completed      |
 
