@@ -16,34 +16,38 @@ A consolidated overview of the user functionality provided by the EUDI Wallet Re
 
 The EUDI Wallet Reference Implementation, developed under the Architecture Reference Framework, showcases how citizens can securely identify, authenticate, and sign electronically using common EU standards. It is built on a modular design with reusable components that evolve over time and can support multiple projects. Below you can find an overview of the features and functionalities delivered by the EUDI Wallet Reference Implementation. 
 
+@skounis The point regarding improving clarity on the supported standards and formats is well taken. To address this, we propose adding a dedicated column indicating whether each item is supported by the Reference Implementation. Since the intent is not to provide an exhaustive catalogue of all applicable standards, we suggest limiting the list to the key ones, while directing readers to the Standards and Technical Specifications workstream for further details. Additionally, the descriptions have been updated for greater consistency and clarity.
+
 ## 📐 Standards, Protocols and Formats
 
-The following tables provide an overview of the technical standards, protocols and verifiable credential formats supported by the EUDI Wallet Reference Implementation.
+The EUDI Wallet Reference Implementation is built on a set of open standards to ensure interoperability, security, and compliance with the EU Architecture Reference Framework (ARF) and the related Implementing Acts.  
+The following tables indicate which standards and formats are already supported by the Reference Implementation and which are in scope for alignment.
 
-### Supported Standards & Protocols
-| Protocol        | Version                                 | Description     | 
-|:--------------------|:-------------------------------:|:----------|
-| [OpenID for Verifiable Credential Issuance (OID4VCI)](https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0.html)            | v1.0        | A standard which defines a mechanism for issuing verifiable credentials from issuers to wallets.|
-| [OpenID for Verifiable Presentations (OID4VP)](https://openid.net/specs/openid-4-verifiable-presentations-1_0.html)        | v1.0     |A standard which defines a mechanism enabling wallets to present verifiable credentials securely to relying parties.|
-| [HAIP](https://openid.net/specs/openid4vc-high-assurance-interoperability-profile-1_0-03.html) | Draft 03   | A profile of OpenID for Verifiable Credentials in combination with credential formats, specifying security and interoperability requirements for EUDI Wallet interactions. (note: Pending publication of baseline version v1.0)|
-| [OAuth Token Status List](https://datatracker.ietf.org/doc/draft-ietf-oauth-status-list/) |  Draft 12   | A mechanism for checking the validity (active, revoked, expired) of OAuth tokens used in credential transactions.|
-| ISO/IEC 18013-5 |  Published (2021)   | A standard for mobile driving licence (mDL) implementations, defining secure presentation and verification over NFC, QR, or BLE.|
+### Standards & Protocols
 
-
-### Supported Credential Formats
-
-| Format        | Description                                 |  
-|:--------------------|:--------------------------------------------|
-| mso_mdoc           |ISO/IEC 18013-5 credential format for verifiable credentials, using a signed Mobile Security Object to bind and protect data elements, with support for selective disclosure.|
-| SD-JWT-VC | Credential format developed by the IETF and OpenID Foundation, extending JSON Web Tokens with selective disclosure for web-native verifiable credentials. |  
+| Standard / Protocol | Status | Description | Supported by the EUDI Wallet Reference Implementation |
+|:--------------------|:-------|:------------|:------------------------------------------------------|
+| [OpenID for Verifiable Credential Issuance (OID4VCI)](https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0.html) | v1.0 (Published) | Defines how issuers deliver verifiable credentials to wallets. | ✅ Yes |
+| [OpenID for Verifiable Presentations (OID4VP)](https://openid.net/specs/openid-4-verifiable-presentations-1_0.html) | v1.0 (Published) | Defines how wallets present verifiable credentials securely to relying parties. | ✅ Yes |
+| [High Assurance Interoperability Profile (HAIP)](https://openid.net/specs/openid4vc-high-assurance-interoperability-profile-1_0-04.html) | Draft 04 | Profile of OpenID for Verifiable Credentials specifying high-assurance security and interoperability requirements. | ❌ Planned for Q4/2025 |
+| [OAuth Token Status List](https://datatracker.ietf.org/doc/draft-ietf-oauth-status-list/) | Draft 12 | Defines a mechanism for checking the validity (active, revoked, expired) of OAuth tokens used in credential transactions. | ✅ Yes |
+| ISO/IEC 18013-5 | Published (2021) | Defines the mobile driving licence (mDL/mDoc) standard for secure presentation and verification over NFC, QR, or BLE. | ✅ Yes |
 
 ---
-**ℹ️ EUDI Wallet Standards and Technical Speficiations workstream**  
-The EUDI Wallet initiative is supported by ongoing work to define and align relevant standards and technical specifications with the relevant Implementing Acts establishing the EUDI framework.
-For more information, please refer to:  
+
+### Credential Formats
+
+| Format | Status | Description | Supported by the EUDI Wallet Reference Implementation |
+|:-------|:-------|:------------|:------------------------------------------------------|
+| `mso_mdoc` | Published (ISO/IEC 18013-5) | Credential format based on ISO/IEC 18013-5 using a signed Mobile Security Object (MSO) to bind and protect data elements. Supports selective disclosure. | ✅ Yes |
+| `SD-JWT-VC` | Draft (IETF / OpenID Foundation) | Credential format extending JSON Web Tokens with selective disclosure for web-native verifiable credentials. | ✅ Yes |
+
+---
+
+**ℹ️ Relation to Standards Workstream and ARF**  
+The EUDI Wallet Reference Implementation is developed in close alignment with:  
 - [EUDI Wallet Standards and Technical Specifications workstream](https://github.com/eu-digital-identity-wallet/eudi-doc-standards-and-technical-specifications)  
 - [List of Technical Specifications (ARF)](https://github.com/eu-digital-identity-wallet/eudi-doc-standards-and-technical-specifications/blob/main/docs/technical-specifications/README.md)  
-
 
 
 ## 🧩 Features
