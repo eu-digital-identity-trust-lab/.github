@@ -20,8 +20,11 @@ The EUDI Wallet Reference Implementation, developed under the Architecture Refer
 
 ## 📐 Standards, Protocols and Formats
 
-The EUDI Wallet Reference Implementation is built on a set of open standards to ensure interoperability, security, and compliance with the EU Architecture Reference Framework (ARF) and the related Implementing Acts.  
-The following tables indicate which standards and formats are already supported by the Reference Implementation and which are in scope for alignment.
+The EUDI Wallet is supported by a defined set of standards and technical specifications considered essential for its implementation. These form the minimum foundation needed to ensure secure issuance, presentation, authentication, signing, and certification of digital identity credentials.
+
+❗For a comprehensive set of standards and technical specifications (STS), you may visit the [Essential Standards and Technical Specifications (STS)](https://eu-digital-identity-wallet.github.io/eudi-doc-architecture-and-reference-framework/latest/technical-specifications/) section of the ARF.
+
+The following tables indicates the key standards and formats supported by the Reference Implementation and which are in scope for alignment.
 
 ### Standards & Protocols
 
@@ -44,10 +47,6 @@ The following tables indicate which standards and formats are already supported 
 
 ---
 
-**ℹ️ Relation to Standards Workstream and ARF**  
-The EUDI Wallet Reference Implementation is developed in close alignment with:  
-- [EUDI Wallet Standards and Technical Specifications workstream](https://github.com/eu-digital-identity-wallet/eudi-doc-standards-and-technical-specifications)  
-- [List of Technical Specifications (ARF)](https://github.com/eu-digital-identity-wallet/eudi-doc-standards-and-technical-specifications/blob/main/docs/technical-specifications/README.md)  
 
 
 ## 🧩 Features
