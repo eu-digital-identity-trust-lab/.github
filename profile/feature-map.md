@@ -16,37 +16,18 @@ A consolidated overview of the user functionality provided by the EUDI Wallet Re
 
 The EUDI Wallet Reference Implementation, developed under the Architecture Reference Framework, showcases how citizens can securely identify, authenticate, and sign electronically using common EU standards. It is built on a modular design with reusable components that evolve over time and can support multiple projects. Below you can find an overview of the features and functionalities delivered by the EUDI Wallet Reference Implementation. 
 
-@skounis The point regarding improving clarity on the supported standards and formats is well taken. To address this, we propose adding a dedicated column indicating whether each item is supported by the Reference Implementation. Since the intent is not to provide an exhaustive catalogue of all applicable standards, we suggest limiting the list to the key ones, while directing readers to the Standards and Technical Specifications workstream for further details. Additionally, the descriptions have been updated for greater consistency and clarity.
-
 ## 📐 Standards, Protocols and Formats
 
 The EUDI Wallet is supported by a defined set of standards and technical specifications considered essential for its implementation. These form the minimum foundation needed to ensure secure issuance, presentation, authentication, signing, and certification of digital identity credentials.
 
 ❗For a comprehensive set of standards and technical specifications (STS), you may visit the [Essential Standards and Technical Specifications (STS)](https://eu-digital-identity-wallet.github.io/eudi-doc-architecture-and-reference-framework/latest/technical-specifications/) section of the ARF.
 
-The following tables indicates the key standards and formats supported by the Reference Implementation and which are in scope for alignment.
+In relation to credential formats, the following table indicates the formats supported by the EUDI Wallet Reference Implementation. 
 
-### Standards & Protocols
-
-| Standard / Protocol | Status | Description | Supported by the EUDI Wallet Reference Implementation |
-|:--------------------|:-------|:------------|:------------------------------------------------------|
-| [OpenID for Verifiable Credential Issuance (OID4VCI)](https://openid.net/specs/openid-4-verifiable-credential-issuance-1_0.html) | v1.0 (Published) | Defines how issuers deliver verifiable credentials to wallets. | ✅ Yes |
-| [OpenID for Verifiable Presentations (OID4VP)](https://openid.net/specs/openid-4-verifiable-presentations-1_0.html) | v1.0 (Published) | Defines how wallets present verifiable credentials securely to relying parties. | ✅ Yes |
-| [High Assurance Interoperability Profile (HAIP)](https://openid.net/specs/openid4vc-high-assurance-interoperability-profile-1_0-04.html) | Draft 04 | Profile of OpenID for Verifiable Credentials specifying high-assurance security and interoperability requirements. | ❌ Planned for Q4/2025 |
-| [OAuth Token Status List](https://datatracker.ietf.org/doc/draft-ietf-oauth-status-list/) | Draft 12 | Defines a mechanism for checking the validity (active, revoked, expired) of OAuth tokens used in credential transactions. | ✅ Yes |
-| ISO/IEC 18013-5 | Published (2021) | Defines the mobile driving licence (mDL/mDoc) standard for secure presentation and verification over NFC, QR, or BLE. | ✅ Yes |
-
----
-
-### Credential Formats
-
-| Format | Status | Description | Supported by the EUDI Wallet Reference Implementation |
-|:-------|:-------|:------------|:------------------------------------------------------|
-| `mso_mdoc` | Published (ISO/IEC 18013-5) | Credential format based on ISO/IEC 18013-5 using a signed Mobile Security Object (MSO) to bind and protect data elements. Supports selective disclosure. | ✅ Yes |
-| `SD-JWT-VC` | Draft (IETF / OpenID Foundation) | Credential format extending JSON Web Tokens with selective disclosure for web-native verifiable credentials. | ✅ Yes |
-
----
-
+| Format | Status | Description | 
+|:-------|:-------|:------------|
+| `mso_mdoc` | Published (ISO/IEC 18013-5) | Credential format based on ISO/IEC 18013-5 using a signed Mobile Security Object (MSO) to bind and protect data elements. Supports selective disclosure. | 
+| `SD-JWT-VC` | Draft (IETF / OpenID Foundation) | Credential format extending JSON Web Tokens with selective disclosure for web-native verifiable credentials. | 
 
 
 ## 🧩 Features
