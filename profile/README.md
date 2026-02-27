@@ -1,15 +1,27 @@
 
 [Digital Strategy](https://digital-strategy.ec.europa.eu//en)> [Policies](https://digital-strategy.ec.europa.eu/en/policies)>[Electronic Identification](https://digital-strategy.ec.europa.eu//en/policies/electronic-identification)
 
-![Digital Identity for all Europeans - A personal digital wallet for EU citizens and residents](https://raw.githubusercontent.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/main/docs/media/top-banner.png)
+![Digital Identity Trust Lab all Europeans - Hardening the personal digital wallet for EU citizens and residents](https://raw.githubusercontent.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/main/docs/media/top-banner.png)
 
-# EU Digital Identity Wallet 
-## Digital Identity Regulation
+# 🔬 EUDI Secure Systems Laboratory
+## Complementary Fork of the EU Digital Identity Wallet Reference Implementation
 
-Under the [Electronic Identification, Authentication and Trust Services (eIDAS) Regulation](https://digital-strategy.ec.europa.eu/en/policies/eidas-regulation), EU Member States may, on a voluntary basis, notify and recognise, national electronic identification schemes in their Member States. The recognition of notified electronic identification became mandatory in 2018.
-Yet, there is no requirement for Member States to develop a national electronic identification and to make it interoperable with those in other Member States. This has led to discrepancies between countries.
-The new Regulation on digital identity addresses shortcomings in eIDAS by improving the effectiveness of the framework and extending its benefits to the private sector.
-Member States will offer citizens and businesses digital wallets that will be able to link various aspects of their national digital identities. These may be provided by public authorities or the private sector, if they are recognized by the Member States.
+> ⚠ **Disclaimer**
+> This repository is an independent public laboratory fork of the official EU Digital Identity Wallet reference implementation .
+>
+> It is **not affiliated with, endorsed by, or maintained by the European Commission or the official EUDI consortium**.
+>
+> The purpose of this fork is to explore a **minimal, security-focused, systems-level implementation** aligned with the Architecture and Reference Framework (ARF), with an emphasis on:
+>
+> * Reduced trusted computing base (TCB)
+> * C/C++ native implementations
+> * GNU/Linux integration
+> * Auditable cryptographic correctness
+> * Transparent, condensed and publicly reviewable development
+>
+> This laboratory aims to remain strictly specification-aligned and interoperable with the official reference implementation.
+>
+> Future upstream collaboration or consolidation remains explicitly welcome.
 
 The EU Digital Identity Wallet will be:
 
