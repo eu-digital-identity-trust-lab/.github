@@ -23,6 +23,8 @@
 >
 > Future upstream collaboration or consolidation remains explicitly welcome.
 
+# EU Digital Identity Wallet Trust Lab
+
 The EU Digital Identity Wallet will be:
 
 * **made available to anyone who wants to use it**:  Any EU citizen, resident, and business in the EU who would like to make use of the EU Digital Identity will be able to do so.
